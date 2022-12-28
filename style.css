@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+  }
+  .navbar{
+    display: flex;
+    width: 100%;
+    z-index: 1000;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky; top: 0;
+    background: rgba(255, 255, 255, 0.726);
+    
+  }
+  li{
+    list-style-type: none;
+    display: inline-flex;
+    padding: 15px;
+    justify-content: center;
+  }
+  .navbar a{
+    text-decoration: none;
+    color:#4bc0c8;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0px 30px 0px 30px;
+  }
+  .start{
+    padding: 0;
+    background: linear-gradient(90deg,#d761e4, #c779d0, #4bc0c8);
+    height: 500px;
+    color: white;
+    text-align: center;
+  }
+  .start h1{
+    padding-top: 130px;
+    font-size: 4rem;
+  }
+  .start p{
+    font-size: 1.3rem;
+  }
+  .Aboutme{
+    background-color: #03001e;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+  }
+  .Aboutmecards{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+  }
+  .Aboutme h1{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 2rem;
+    
+    
+  }
+  .Aboutmecards .card{
+  
+    width: 650px;
+    height: 220px;
+    border-radius: 10px;
+    padding: 16px;
+    text-align: center;
+    background-color: #26243b;
+   
+  }
+  #first:hover{
+    
+        box-shadow: 0 0 31px #4bc0c8; 
+  }
+  
+  .Aboutme p{
+    color: white;
+    font-family: sans-serif;
+    line-height:25px;
+    
+  }
+  .skill {
+    height: 500px;
+    background-color: #03001e;
+    
+  
+  }
+  .skill h1{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    padding-top: 50px;
+  }
+  
+  .skill figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 90px;
+  
+  
+  }
+  .contact{
+    height: 500px;
+    background-color: #03001e;
+    padding-top: 80px;
+    
+  
+   
+  }
+  .contact h1{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+  }
+  .contactform{
+    margin: auto;
+    max-width: 600px;
+  
+  }
+  .contactform textarea{
+    height: 70px;
+  }
+  .text{
+    display: block;
+    width: 100%;
+    margin: 18px 0;
+    padding: 20px 40px;
+    border-radius: 5px;
+    border-style: none;
+    outline: none;
+  }
+  .btn{
+    background-color: #26243b;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 40px;
+    padding: 1.3rem;
+    color: #ffffff;
+    border: 5px solid black;
+    border-radius: 45px;
+    border-color: #043e68;
+  }
+  .btn:hover{
+    background-color: #c779d0;
+    box-shadow: 0px 5px 10px #c779d07c; 
+    border: none;
+  }
+  
+  footer{
+    height: fit-content;
+    background-color: #26243b;
+    color:rgba(255, 255, 255, 0.623);
+    text-align: center;
+  }
+  .link a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.623);
+    font-size: 1rem;
+    
+  }
